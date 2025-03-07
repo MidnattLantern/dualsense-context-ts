@@ -1,0 +1,82 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS Trash folder
+.Trashes
+.DS_Store?
+.Spotlight-V100
+.fseventsd
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log
+*.pid
+*.seed
+*.state
+
+# Editor & IDE settings (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+
+# TypeScript build outputs
+dist/
+out/
+build/
+
+# Environment variables (VERY IMPORTANT FOR SECURITY!)
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache & temporary files
+.cache/
+.tmp/
+coverage/
+*.bak
+*.swp
+*.swo
+
+# Git & Merge files
+*.orig
+*.rej
+
+# Ignore package manager lock files (optional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# macOS files created by Finder
+Thumbs.db
+Desktop.ini
+
+# Ignore Python virtual environments (if used)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore SQLite database (if used)
+*.sqlite
+*.sqlite3
+db.sqlite3
